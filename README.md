@@ -1,3 +1,6 @@
+# [Slides](https://drive.google.com/file/d/0B5wxXTfqdxbxdUJIOW5DSURLQTg/view?usp=sharing)
+
+
 # Blog
 
 To start your Phoenix app:
