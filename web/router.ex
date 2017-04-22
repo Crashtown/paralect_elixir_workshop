@@ -8,6 +8,10 @@ defmodule Blog.Router do
   scope "/api", Blog do
     pipe_through :api
 
-    get "/", PostController, :index
+    # CRUDYG
+    get "/posts", PostController, :index
+    post "/posts", PostController, :create
+    patch "/posts/:id", PostController, :update
+    get "/posts/:id", PostController, :show
   end
 end
